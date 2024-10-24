@@ -22,10 +22,10 @@ importers:
         version: 10.4.20(postcss@8.4.47)
       langchain:
         specifier: ^0.3.3
-        version: 0.3.3(@langchain/core@0.3.13(openai@4.68.4(zod@3.23.8)))(axios@1.7.4)(openai@4.68.4(zod@3.23.8))
+        version: 0.3.3(@langchain/core@0.3.13(openai@4.68.4(zod@3.23.8)))(axios@1.7.4(debug@4.3.7))(openai@4.68.4(zod@3.23.8))
       langfuse-langchain:
         specifier: ^3.27.2
-        version: 3.27.2(langchain@0.3.3(@langchain/core@0.3.13(openai@4.68.4(zod@3.23.8)))(axios@1.7.4)(openai@4.68.4(zod@3.23.8)))
+        version: 3.27.2(langchain@0.3.3(@langchain/core@0.3.13(openai@4.68.4(zod@3.23.8)))(axios@1.7.4(debug@4.3.7))(openai@4.68.4(zod@3.23.8)))
       postcss:
         specifier: ^8.4.47
         version: 8.4.47
@@ -1430,8 +1430,8 @@ packages:
   ecdsa-sig-formatter@1.0.11:
     resolution: {integrity: sha512-nagl3RYrbNv6kQkeJIpt6NJZy8twLB/2vtz6yN9Z4vRKHN4/QZJIEbqohALSgwKdnksuY3k5Addp5lg8sVoVcQ==}
 
-  electron-to-chromium@1.5.44:
-    resolution: {integrity: sha512-Lz3POUa7wANQA8G+9btKAdH+cqkfWCBdkotvQZJVOqRXMYGm1tTD835Z01iCjWpEBf0RInPBWuPfzhGbxOCULw==}
+  electron-to-chromium@1.5.45:
+    resolution: {integrity: sha512-vOzZS6uZwhhbkZbcRyiy99Wg+pYFV5hk+5YaECvx0+Z31NR3Tt5zS6dze2OepT6PCTzVzT0dIJItti+uAW5zmw==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -3264,7 +3264,7 @@ snapshots:
       flat: 5.0.2
       ibm-cloud-sdk-core: 5.1.0
       js-yaml: 4.1.0
-      langchain: 0.3.3(@langchain/core@0.3.13(openai@4.68.4(zod@3.23.8)))(axios@1.7.4)(openai@4.68.4(zod@3.23.8))
+      langchain: 0.3.3(@langchain/core@0.3.13(openai@4.68.4(zod@3.23.8)))(axios@1.7.4(debug@4.3.7))(openai@4.68.4(zod@3.23.8))
       langsmith: 0.1.66(openai@4.68.4(zod@3.23.8))
       uuid: 10.0.0
       zod: 3.23.8
@@ -3805,7 +3805,7 @@ snapshots:
   browserslist@4.24.2:
     dependencies:
       caniuse-lite: 1.0.30001669
-      electron-to-chromium: 1.5.44
+      electron-to-chromium: 1.5.45
       node-releases: 2.0.18
       update-browserslist-db: 1.1.1(browserslist@4.24.2)
 
@@ -3982,7 +3982,7 @@ snapshots:
     dependencies:
       safe-buffer: 5.2.1
 
-  electron-to-chromium@1.5.44: {}
+  electron-to-chromium@1.5.45: {}
 
   emoji-regex@8.0.0: {}
 
@@ -4478,7 +4478,7 @@ snapshots:
       isstream: 0.1.2
       jsonwebtoken: 9.0.2
       mime-types: 2.1.35
-      retry-axios: 2.6.0(axios@1.7.4)
+      retry-axios: 2.6.0(axios@1.7.4(debug@4.3.7))
       tough-cookie: 4.1.4
     transitivePeerDependencies:
       - supports-color
@@ -4695,7 +4695,7 @@ snapshots:
 
   known-css-properties@0.30.0: {}
 
-  langchain@0.3.3(@langchain/core@0.3.13(openai@4.68.4(zod@3.23.8)))(axios@1.7.4)(openai@4.68.4(zod@3.23.8)):
+  langchain@0.3.3(@langchain/core@0.3.13(openai@4.68.4(zod@3.23.8)))(axios@1.7.4(debug@4.3.7))(openai@4.68.4(zod@3.23.8)):
     dependencies:
       '@langchain/core': 0.3.13(openai@4.68.4(zod@3.23.8))
       '@langchain/openai': 0.3.11(@langchain/core@0.3.13(openai@4.68.4(zod@3.23.8)))
@@ -4720,9 +4720,9 @@ snapshots:
     dependencies:
       mustache: 4.2.0
 
-  langfuse-langchain@3.27.2(langchain@0.3.3(@langchain/core@0.3.13(openai@4.68.4(zod@3.23.8)))(axios@1.7.4)(openai@4.68.4(zod@3.23.8))):
+  langfuse-langchain@3.27.2(langchain@0.3.3(@langchain/core@0.3.13(openai@4.68.4(zod@3.23.8)))(axios@1.7.4(debug@4.3.7))(openai@4.68.4(zod@3.23.8))):
     dependencies:
-      langchain: 0.3.3(@langchain/core@0.3.13(openai@4.68.4(zod@3.23.8)))(axios@1.7.4)(openai@4.68.4(zod@3.23.8))
+      langchain: 0.3.3(@langchain/core@0.3.13(openai@4.68.4(zod@3.23.8)))(axios@1.7.4(debug@4.3.7))(openai@4.68.4(zod@3.23.8))
       langfuse: 3.27.2
       langfuse-core: 3.27.2
 
@@ -5072,7 +5072,7 @@ snapshots:
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
 
-  retry-axios@2.6.0(axios@1.7.4):
+  retry-axios@2.6.0(axios@1.7.4(debug@4.3.7)):
     dependencies:
       axios: 1.7.4(debug@4.3.7)
 
