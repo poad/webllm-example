@@ -61,6 +61,8 @@ export default tseslint.config(
       "comma-dangle": ["error", "always-multiline"],
       quotes: ["error", "single"],
       semi: ["error", "always"],
+      '@typescript-eslint/no-unused-expressions': 'off',
+      '@typescript-eslint/no-empty-function': 'off',
     }
   },
 );
