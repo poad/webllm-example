@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@langchain/community':
-        specifier: ^0.3.14
-        version: 0.3.14(@ibm-cloud/watsonx-ai@1.1.1)(@langchain/core@0.3.18(openai@4.72.0(zod@3.23.8)))(@mlc-ai/web-llm@0.2.75)(axios@1.7.4)(ibm-cloud-sdk-core@5.1.0)(ignore@5.3.2)(jsdom@25.0.1)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.72.0(zod@3.23.8))(ws@8.18.0)
+        specifier: ^0.3.15
+        version: 0.3.15(@ibm-cloud/watsonx-ai@1.1.1)(@langchain/core@0.3.18(openai@4.72.0(zod@3.23.8)))(@mlc-ai/web-llm@0.2.75)(axios@1.7.4)(ibm-cloud-sdk-core@5.1.0)(ignore@5.3.2)(jsdom@25.0.1)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.72.0(zod@3.23.8))(ws@8.18.0)
       '@langchain/core':
         specifier: ^0.3.18
         version: 0.3.18(openai@4.72.0(zod@3.23.8))
@@ -21,11 +21,11 @@ importers:
         specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.49)
       langchain:
-        specifier: ^0.3.5
-        version: 0.3.5(@langchain/core@0.3.18(openai@4.72.0(zod@3.23.8)))(axios@1.7.4(debug@4.3.7))(openai@4.72.0(zod@3.23.8))
+        specifier: ^0.3.6
+        version: 0.3.6(@langchain/core@0.3.18(openai@4.72.0(zod@3.23.8)))(axios@1.7.4(debug@4.3.7))(openai@4.72.0(zod@3.23.8))
       langfuse-langchain:
         specifier: ^3.29.1
-        version: 3.29.1(langchain@0.3.5(@langchain/core@0.3.18(openai@4.72.0(zod@3.23.8)))(axios@1.7.4(debug@4.3.7))(openai@4.72.0(zod@3.23.8)))
+        version: 3.29.1(langchain@0.3.6(@langchain/core@0.3.18(openai@4.72.0(zod@3.23.8)))(axios@1.7.4(debug@4.3.7))(openai@4.72.0(zod@3.23.8)))
       postcss:
         specifier: ^8.4.49
         version: 8.4.49
@@ -412,8 +412,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@langchain/community@0.3.14':
-    resolution: {integrity: sha512-zadvK0pu15Jp028VEV4wV+lYB1ViojSolSdSNMdE82KuaK97kH/F1aynQ2W+ebHzjr0lG3dUF3OfOqHU37VgwA==}
+  '@langchain/community@0.3.15':
+    resolution: {integrity: sha512-yG4cv33u7zYar14yqZCI7o2KjwRb+9S7upVzEmVVETimpicm9UjpkMfX4qa4A4IslM1TtC4uy2Ymu9EcINZSpQ==}
     engines: {node: '>=18'}
     peerDependencies:
       '@arcjet/redact': ^v1.0.0-alpha.23
@@ -444,6 +444,7 @@ packages:
       '@gradientai/nodejs-sdk': ^1.2.0
       '@huggingface/inference': ^2.6.4
       '@ibm-cloud/watsonx-ai': '*'
+      '@lancedb/lancedb': ^0.12.0
       '@langchain/core': '>=0.2.21 <0.4.0'
       '@layerup/layerup-security': ^1.5.12
       '@libsql/client': ^0.14.0
@@ -532,7 +533,6 @@ packages:
       typeorm: ^0.3.20
       typesense: ^1.5.3
       usearch: ^1.1.1
-      vectordb: ^0.1.4
       voy-search: 0.6.2
       weaviate-ts-client: '*'
       web-auth-library: ^1.0.3
@@ -593,6 +593,8 @@ packages:
       '@gradientai/nodejs-sdk':
         optional: true
       '@huggingface/inference':
+        optional: true
+      '@lancedb/lancedb':
         optional: true
       '@layerup/layerup-security':
         optional: true
@@ -765,8 +767,6 @@ packages:
       typesense:
         optional: true
       usearch:
-        optional: true
-      vectordb:
         optional: true
       voy-search:
         optional: true
@@ -2000,8 +2000,8 @@ packages:
   known-css-properties@0.30.0:
     resolution: {integrity: sha512-VSWXYUnsPu9+WYKkfmJyLKtIvaRJi1kXUqVmBACORXZQxT5oZDsoZ2vQP+bQFDnWtpI/4eq3MLoRMjI2fnLzTQ==}
 
-  langchain@0.3.5:
-    resolution: {integrity: sha512-Gq0xC45Sq6nszS8kQG9suCrmBsuXH0INMmiF7D2TwPb6mtG35Jiq4grCk9ykpwPsarTHdty3SzUbII/FqiYSSw==}
+  langchain@0.3.6:
+    resolution: {integrity: sha512-erZOIKXzwCOrQHqY9AyjkQmaX62zUap1Sigw1KrwMUOnVoLKkVNRmAyxFlNZDZ9jLs/58MaQcaT9ReJtbj3x6w==}
     engines: {node: '>=18'}
     peerDependencies:
       '@langchain/anthropic': '*'
@@ -3226,7 +3226,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@langchain/community@0.3.14(@ibm-cloud/watsonx-ai@1.1.1)(@langchain/core@0.3.18(openai@4.72.0(zod@3.23.8)))(@mlc-ai/web-llm@0.2.75)(axios@1.7.4)(ibm-cloud-sdk-core@5.1.0)(ignore@5.3.2)(jsdom@25.0.1)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.72.0(zod@3.23.8))(ws@8.18.0)':
+  '@langchain/community@0.3.15(@ibm-cloud/watsonx-ai@1.1.1)(@langchain/core@0.3.18(openai@4.72.0(zod@3.23.8)))(@mlc-ai/web-llm@0.2.75)(axios@1.7.4)(ibm-cloud-sdk-core@5.1.0)(ignore@5.3.2)(jsdom@25.0.1)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.72.0(zod@3.23.8))(ws@8.18.0)':
     dependencies:
       '@ibm-cloud/watsonx-ai': 1.1.1
       '@langchain/core': 0.3.18(openai@4.72.0(zod@3.23.8))
@@ -3236,7 +3236,7 @@ snapshots:
       flat: 5.0.2
       ibm-cloud-sdk-core: 5.1.0
       js-yaml: 4.1.0
-      langchain: 0.3.5(@langchain/core@0.3.18(openai@4.72.0(zod@3.23.8)))(axios@1.7.4(debug@4.3.7))(openai@4.72.0(zod@3.23.8))
+      langchain: 0.3.6(@langchain/core@0.3.18(openai@4.72.0(zod@3.23.8)))(axios@1.7.4(debug@4.3.7))(openai@4.72.0(zod@3.23.8))
       langsmith: 0.2.5(openai@4.72.0(zod@3.23.8))
       uuid: 10.0.0
       zod: 3.23.8
@@ -4656,7 +4656,7 @@ snapshots:
 
   known-css-properties@0.30.0: {}
 
-  langchain@0.3.5(@langchain/core@0.3.18(openai@4.72.0(zod@3.23.8)))(axios@1.7.4(debug@4.3.7))(openai@4.72.0(zod@3.23.8)):
+  langchain@0.3.6(@langchain/core@0.3.18(openai@4.72.0(zod@3.23.8)))(axios@1.7.4(debug@4.3.7))(openai@4.72.0(zod@3.23.8)):
     dependencies:
       '@langchain/core': 0.3.18(openai@4.72.0(zod@3.23.8))
       '@langchain/openai': 0.3.13(@langchain/core@0.3.18(openai@4.72.0(zod@3.23.8)))
@@ -4681,9 +4681,9 @@ snapshots:
     dependencies:
       mustache: 4.2.0
 
-  langfuse-langchain@3.29.1(langchain@0.3.5(@langchain/core@0.3.18(openai@4.72.0(zod@3.23.8)))(axios@1.7.4(debug@4.3.7))(openai@4.72.0(zod@3.23.8))):
+  langfuse-langchain@3.29.1(langchain@0.3.6(@langchain/core@0.3.18(openai@4.72.0(zod@3.23.8)))(axios@1.7.4(debug@4.3.7))(openai@4.72.0(zod@3.23.8))):
     dependencies:
-      langchain: 0.3.5(@langchain/core@0.3.18(openai@4.72.0(zod@3.23.8)))(axios@1.7.4(debug@4.3.7))(openai@4.72.0(zod@3.23.8))
+      langchain: 0.3.6(@langchain/core@0.3.18(openai@4.72.0(zod@3.23.8)))(axios@1.7.4(debug@4.3.7))(openai@4.72.0(zod@3.23.8))
       langfuse: 3.29.1
       langfuse-core: 3.29.1
 
