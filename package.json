@@ -14,7 +14,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@eslint/js": "^9.15.0",
+    "@eslint/js": "^9.16.0",
     "@solidjs/testing-library": "^0.8.10",
     "@stylistic/eslint-plugin": "^2.11.0",
     "@stylistic/eslint-plugin-js": "^2.11.0",
@@ -23,7 +23,7 @@
     "@stylistic/eslint-plugin-ts": "^2.11.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@types/uuid": "^10.0.0",
-    "eslint": "^9.15.0",
+    "eslint": "^9.16.0",
     "eslint-import-resolver-typescript": "^3.6.3",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-promise": "^7.2.1",
@@ -38,14 +38,14 @@
   "dependencies": {
     "@langchain/community": "^0.3.16",
     "@langchain/core": "^0.3.19",
-    "@mlc-ai/web-llm": "^0.2.76",
+    "@mlc-ai/web-llm": "^0.2.77",
     "autoprefixer": "^10.4.20",
     "langchain": "^0.3.6",
-    "langfuse-langchain": "^3.31.0",
+    "langfuse-langchain": "^3.31.1",
     "postcss": "^8.4.49",
     "solid-js": "^1.9.3",
     "tailwindcss": "^3.4.15",
     "uuid": "^10.0.0"
   },
-  "packageManager": "pnpm@9.14.2+sha512.6e2baf77d06b9362294152c851c4f278ede37ab1eba3a55fda317a4a17b209f4dbb973fb250a77abc463a341fcb1f17f17cfa24091c4eb319cda0d9b84278387"
+  "packageManager": "pnpm@9.14.4+sha512.c8180b3fbe4e4bca02c94234717896b5529740a6cbadf19fa78254270403ea2f27d4e1d46a08a0f56c89b63dc8ebfd3ee53326da720273794e6200fcf0d184ab"
 }
