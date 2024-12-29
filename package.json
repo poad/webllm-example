@@ -30,22 +30,22 @@
     "eslint-plugin-solid": "^0.14.5",
     "jsdom": "^25.0.1",
     "typescript": "^5.7.2",
-    "typescript-eslint": "^8.18.1",
+    "typescript-eslint": "^8.18.2",
     "vite": "^5.4.11",
     "vite-plugin-solid": "^2.11.0",
     "vitest": "^2.1.8"
   },
   "dependencies": {
-    "@langchain/community": "^0.3.19",
-    "@langchain/core": "^0.3.24",
+    "@langchain/community": "^0.3.20",
+    "@langchain/core": "^0.3.26",
     "@mlc-ai/web-llm": "^0.2.77",
     "autoprefixer": "^10.4.20",
-    "langchain": "^0.3.7",
+    "langchain": "^0.3.8",
     "langfuse-langchain": "^3.32.0",
     "postcss": "^8.4.49",
     "solid-js": "^1.9.3",
-    "tailwindcss": "^3.4.16",
+    "tailwindcss": "^3.4.17",
     "uuid": "^10.0.0"
   },
-  "packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c"
+  "packageManager": "pnpm@9.15.2+sha512.93e57b0126f0df74ce6bff29680394c0ba54ec47246b9cf321f0121d8d9bb03f750a705f24edc3c1180853afd7c2c3b94196d0a3d53d3e069d9e2793ef11f321"
 }
