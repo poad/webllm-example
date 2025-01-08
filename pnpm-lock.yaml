@@ -22,10 +22,10 @@ importers:
         version: 10.4.20(postcss@8.4.49)
       langchain:
         specifier: ^0.3.10
-        version: 0.3.10(@langchain/core@0.3.27(openai@4.77.3(zod@3.24.1)))(axios@1.7.4)(openai@4.77.3(zod@3.24.1))
+        version: 0.3.10(@langchain/core@0.3.27(openai@4.77.3(zod@3.24.1)))(axios@1.7.4(debug@4.4.0))(openai@4.77.3(zod@3.24.1))
       langfuse-langchain:
         specifier: ^3.32.0
-        version: 3.32.0(langchain@0.3.10(@langchain/core@0.3.27(openai@4.77.3(zod@3.24.1)))(axios@1.7.4)(openai@4.77.3(zod@3.24.1)))
+        version: 3.32.0(langchain@0.3.10(@langchain/core@0.3.27(openai@4.77.3(zod@3.24.1)))(axios@1.7.4(debug@4.4.0))(openai@4.77.3(zod@3.24.1)))
       postcss:
         specifier: ^8.4.49
         version: 8.4.49
@@ -3906,7 +3906,7 @@ snapshots:
       flat: 5.0.2
       ibm-cloud-sdk-core: 5.1.0
       js-yaml: 4.1.0
-      langchain: 0.3.10(@langchain/core@0.3.27(openai@4.77.3(zod@3.24.1)))(axios@1.7.4)(openai@4.77.3(zod@3.24.1))
+      langchain: 0.3.10(@langchain/core@0.3.27(openai@4.77.3(zod@3.24.1)))(axios@1.7.4(debug@4.4.0))(openai@4.77.3(zod@3.24.1))
       langsmith: 0.2.14(openai@4.77.3(zod@3.24.1))
       openai: 4.77.3(zod@3.24.1)
       uuid: 10.0.0
@@ -5190,7 +5190,7 @@ snapshots:
       isstream: 0.1.2
       jsonwebtoken: 9.0.2
       mime-types: 2.1.35
-      retry-axios: 2.6.0(axios@1.7.4)
+      retry-axios: 2.6.0(axios@1.7.4(debug@4.4.0))
       tough-cookie: 4.1.4
     transitivePeerDependencies:
       - supports-color
@@ -5446,7 +5446,7 @@ snapshots:
 
   known-css-properties@0.30.0: {}
 
-  langchain@0.3.10(@langchain/core@0.3.27(openai@4.77.3(zod@3.24.1)))(axios@1.7.4)(openai@4.77.3(zod@3.24.1)):
+  langchain@0.3.10(@langchain/core@0.3.27(openai@4.77.3(zod@3.24.1)))(axios@1.7.4(debug@4.4.0))(openai@4.77.3(zod@3.24.1)):
     dependencies:
       '@langchain/core': 0.3.27(openai@4.77.3(zod@3.24.1))
       '@langchain/openai': 0.3.16(@langchain/core@0.3.27(openai@4.77.3(zod@3.24.1)))
@@ -5471,9 +5471,9 @@ snapshots:
     dependencies:
       mustache: 4.2.0
 
-  langfuse-langchain@3.32.0(langchain@0.3.10(@langchain/core@0.3.27(openai@4.77.3(zod@3.24.1)))(axios@1.7.4)(openai@4.77.3(zod@3.24.1))):
+  langfuse-langchain@3.32.0(langchain@0.3.10(@langchain/core@0.3.27(openai@4.77.3(zod@3.24.1)))(axios@1.7.4(debug@4.4.0))(openai@4.77.3(zod@3.24.1))):
     dependencies:
-      langchain: 0.3.10(@langchain/core@0.3.27(openai@4.77.3(zod@3.24.1)))(axios@1.7.4)(openai@4.77.3(zod@3.24.1))
+      langchain: 0.3.10(@langchain/core@0.3.27(openai@4.77.3(zod@3.24.1)))(axios@1.7.4(debug@4.4.0))(openai@4.77.3(zod@3.24.1))
       langfuse: 3.32.0
       langfuse-core: 3.32.0
 
@@ -5855,7 +5855,7 @@ snapshots:
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
 
-  retry-axios@2.6.0(axios@1.7.4):
+  retry-axios@2.6.0(axios@1.7.4(debug@4.4.0)):
     dependencies:
       axios: 1.7.4(debug@4.4.0)
 
