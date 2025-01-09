@@ -29,14 +29,14 @@
     "eslint-plugin-promise": "^7.2.1",
     "eslint-plugin-solid": "^0.14.5",
     "jsdom": "^25.0.1",
-    "typescript": "^5.7.2",
+    "typescript": "^5.7.3",
     "typescript-eslint": "^8.19.1",
     "vite": "^6.0.7",
     "vite-plugin-solid": "^2.11.0",
     "vitest": "^2.1.8"
   },
   "dependencies": {
-    "@langchain/community": "^0.3.22",
+    "@langchain/community": "^0.3.23",
     "@langchain/core": "^0.3.27",
     "@mlc-ai/web-llm": "^0.2.77",
     "autoprefixer": "^10.4.20",
