@@ -30,15 +30,15 @@
     "eslint-plugin-solid": "^0.14.5",
     "jsdom": "^25.0.1",
     "typescript": "^5.7.3",
-    "typescript-eslint": "^8.20.0",
-    "vite": "^6.0.9",
+    "typescript-eslint": "^8.21.0",
+    "vite": "^6.0.11",
     "vite-plugin-solid": "^2.11.0",
     "vitest": "^2.1.8"
   },
   "dependencies": {
     "@langchain/community": "^0.3.26",
     "@langchain/core": "^0.3.32",
-    "@mlc-ai/web-llm": "^0.2.77",
+    "@mlc-ai/web-llm": "^0.2.78",
     "autoprefixer": "^10.4.20",
     "langchain": "^0.3.12",
     "langfuse-langchain": "^3.32.0",
